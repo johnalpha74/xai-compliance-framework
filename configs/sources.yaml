@@ -1,0 +1,56 @@
+sources:
+  - name: Financial Sector Regulation Act 9 of 2017
+    type: html_with_pdf
+    url: "https://www.gov.za/documents/financial-sector-regulation-act-9-2017-english-sepedi-22-aug-2017-0000"
+    category: FINANCIAL_SECTOR_REGULATION
+    source: GOV_ZA
+    description: "South African Financial Sector Regulation Act establishing the Prudential Authority, FSCA, financial stability oversight, regulatory coordination, licensing, supervision and enforcement powers."
+
+  - name: Twin Peaks Regulatory Model
+    type: html
+    url: "https://www2.fsca.co.za/TPNL/1/FSB/thephilosophy.html"
+    category: TWIN_PEAKS
+    source: FSCA
+    description: "Overview of the Twin Peaks structure separating prudential and market conduct regulation in South Africa."
+
+  - name: FIC Public Compliance Communications
+    type: html_index
+    url: "https://www.fic.gov.za/compliance/compliance-guidance/public-compliance-communication/"
+    category: AML_CFT
+    source: FIC
+    description: "Financial Intelligence Centre public compliance communications and guidance documents."
+
+  - name: FIC Website
+    type: html_index
+    url: "https://www.fic.gov.za/"
+    category: AML_CFT
+    source: FIC
+    description: "Official Financial Intelligence Centre website for AML/CFT compliance guidance."
+
+  - name: SARB Website
+    type: html_index
+    url: "https://www.resbank.co.za/"
+    category: BANK_SUPERVISION
+    source: SARB
+    description: "Official South African Reserve Bank website for banking supervision and prudential regulation."
+
+  - name: FSCA Website
+    type: html_index
+    url: "https://www.fsca.co.za/"
+    category: MARKET_CONDUCT
+    source: FSCA
+    description: "Official Financial Sector Conduct Authority website for market conduct regulation."
+
+  - name: Strate Regulatory Framework
+    type: html
+    url: "https://www.strate.co.za/our-regulatory-framework/"
+    category: MARKET_INFRASTRUCTURE
+    source: STRATE
+    description: "Regulatory framework information for South African financial market infrastructure."
+
+  - name: Compliance SA Regulatory Updates
+    type: html
+    url: "https://www.compliancesa.com/regulatory-updates"
+    category: REGULATORY_UPDATES
+    source: COMPLIANCE_SA
+    description: "Regulatory update page for South African compliance developments."

@@ -1,0 +1,461 @@
+sources:
+- name: 4106022-8act9of2017finansectorregulationa.pdf
+  type: pdf
+  url: https://www.gov.za/sites/default/files/gcis_document/201708/4106022-8act9of2017finansectorregulationa.pdf
+  category: FINANCIAL_SECTOR_REGULATION
+  source: GOV_ZA
+  description: South African Financial Sector Regulation Act establishing the Prudential
+    Authority, FSCA, financial stability oversight, regulatory coordination, licensing,
+    supervision and enforcement powers.
+- name: Financial Sector Regulation and Reform
+  type: pdf
+  url: http://www.treasury.gov.za/documents/national%20budget/2016/review/Annexure%20d.pdf
+  category: TWIN_PEAKS
+  source: FSCA
+  description: Overview of the Twin Peaks structure separating prudential and market
+    conduct regulation in South Africa.
+- name: Think Like a Regulator
+  type: pdf
+  url: https://www.fsb.co.za/Departments/twinpeaks/Documents/Thinking%20like%20a%20Regulator%20-%20Presentation%20by%20Farzana%20Badat%20%2003062015.pdf
+  category: TWIN_PEAKS
+  source: FSCA
+  description: Overview of the Twin Peaks structure separating prudential and market
+    conduct regulation in South Africa.
+- name: Learn more
+  type: pdf
+  url: https://www.fic.gov.za/wp-content/uploads/2025/09/FIC-Annual-Report-2024-2025.pdf
+  category: AML_CFT
+  source: FIC
+  description: Official Financial Intelligence Centre website for AML/CFT compliance
+    guidance.
+- name: Learn more
+  type: pdf
+  url: https://www.fic.gov.za/wp-content/uploads/2025/09/FIC-Annual-Report-2024-2025.pdf
+  category: AML_CFT
+  source: FIC
+  description: Official Financial Intelligence Centre website for AML/CFT compliance
+    guidance.
+- name: Learn more
+  type: pdf
+  url: https://www.fic.gov.za/wp-content/uploads/2025/09/FIC-Annual-Report-2024-2025.pdf
+  category: AML_CFT
+  source: FIC
+  description: Official Financial Intelligence Centre website for AML/CFT compliance
+    guidance.
+- name: Learn more
+  type: pdf
+  url: https://www.fic.gov.za/wp-content/uploads/2025/09/FIC-Annual-Report-2024-2025.pdf
+  category: AML_CFT
+  source: FIC
+  description: Official Financial Intelligence Centre website for AML/CFT compliance
+    guidance.
+- name: Learn more
+  type: pdf
+  url: https://www.fic.gov.za/wp-content/uploads/2025/09/FIC-Annual-Report-2024-2025.pdf
+  category: AML_CFT
+  source: FIC
+  description: Official Financial Intelligence Centre website for AML/CFT compliance
+    guidance.
+- name: Learn more
+  type: pdf
+  url: https://www.fic.gov.za/wp-content/uploads/2025/09/FIC-Annual-Report-2024-2025.pdf
+  category: AML_CFT
+  source: FIC
+  description: Official Financial Intelligence Centre website for AML/CFT compliance
+    guidance.
+- name: Learn more
+  type: pdf
+  url: https://www.fic.gov.za/wp-content/uploads/2025/09/FIC-Annual-Report-2024-2025.pdf
+  category: AML_CFT
+  source: FIC
+  description: Official Financial Intelligence Centre website for AML/CFT compliance
+    guidance.
+- name: Learn more
+  type: pdf
+  url: https://www.fic.gov.za/wp-content/uploads/2025/09/FIC-Annual-Report-2024-2025.pdf
+  category: AML_CFT
+  source: FIC
+  description: Official Financial Intelligence Centre website for AML/CFT compliance
+    guidance.
+- name: Learn more
+  type: pdf
+  url: https://www.fic.gov.za/wp-content/uploads/2025/09/FIC-Annual-Report-2024-2025.pdf
+  category: AML_CFT
+  source: FIC
+  description: Official Financial Intelligence Centre website for AML/CFT compliance
+    guidance.
+- name: Learn more
+  type: pdf
+  url: https://www.fic.gov.za/wp-content/uploads/2025/09/FIC-Annual-Report-2024-2025.pdf
+  category: AML_CFT
+  source: FIC
+  description: Official Financial Intelligence Centre website for AML/CFT compliance
+    guidance.
+- name: Learn more
+  type: pdf
+  url: https://www.fic.gov.za/wp-content/uploads/2025/09/FIC-Annual-Report-2024-2025.pdf
+  category: AML_CFT
+  source: FIC
+  description: Official Financial Intelligence Centre website for AML/CFT compliance
+    guidance.
+- name: Learn more
+  type: pdf
+  url: https://www.fic.gov.za/wp-content/uploads/2025/09/FIC-Annual-Report-2024-2025.pdf
+  category: AML_CFT
+  source: FIC
+  description: Official Financial Intelligence Centre website for AML/CFT compliance
+    guidance.
+- name: More
+  type: pdf
+  url: https://www.resbank.co.za/content/dam/sarb/what-we-do/banknotes-and-coin/2023/SARB%20Currency%20Booklet.pdf
+  category: BANK_SUPERVISION
+  source: SARB
+  description: Official South African Reserve Bank website for banking supervision
+    and prudential regulation.
+- name: LEARN MORE
+  type: pdf
+  url: https://www2.fsca.co.za/Documents/FSCA%20Regulatory%20Strategy%202025-2028.pdf
+  category: MARKET_CONDUCT
+  source: FSCA
+  description: Official Financial Sector Conduct Authority website for market conduct
+    regulation.
+- name: FSCA Language Policy
+  type: pdf
+  url: https://www2.fsca.co.za/Documents/FSCA%20Language%20Policy%20-%202024.pdf
+  category: MARKET_CONDUCT
+  source: FSCA
+  description: Official Financial Sector Conduct Authority website for market conduct
+    regulation.
+- name: LEARN MORE
+  type: pdf
+  url: https://www2.fsca.co.za/Customers/Consumers%20Documents/FSCA%20Three-Year%20Rolling%20Financial%20Education%20Plan%202025-2028.pdf
+  category: MARKET_CONDUCT
+  source: FSCA
+  description: Official Financial Sector Conduct Authority website for market conduct
+    regulation.
+- name: HELP
+  type: pdf
+  url: https://www.fsca.co.za/UB Manual.pdf
+  category: MARKET_CONDUCT
+  source: FSCA
+  description: Official Financial Sector Conduct Authority website for market conduct
+    regulation.
+- name: DOWNLOAD
+  type: pdf
+  url: https://www2.fsca.co.za/Documents/FSCA%20Regulatory%20Actions%20Report_30%20June%202025.pdf
+  category: MARKET_CONDUCT
+  source: FSCA
+  description: Official Financial Sector Conduct Authority website for market conduct
+    regulation.
+- name: DOWNLOAD
+  type: pdf
+  url: https://www2.fsca.co.za/Regulatory%20Frameworks/Documents/Published%20list%20of%20Authorised%20CASPs_18%20December%202024.pdf
+  category: MARKET_CONDUCT
+  source: FSCA
+  description: Official Financial Sector Conduct Authority website for market conduct
+    regulation.
+- name: Read more...​
+  type: pdf
+  url: https://www.fscamymoney.co.za/Research%20Documents/Financial%20Literacy%20in%20South%20Africa%20Results%20from%20the%202020%20Baseline%20Survey.pdf
+  category: MARKET_CONDUCT
+  source: FSCA
+  description: Official Financial Sector Conduct Authority website for market conduct
+    regulation.
+- name: Read more...​
+  type: pdf
+  url: https://www.fscamymoney.co.za/Research%20Documents/01%20FSCA%20Financial%20Literacy%20Overview%20%282022-05-31%29.pdf
+  category: MARKET_CONDUCT
+  source: FSCA
+  description: Official Financial Sector Conduct Authority website for market conduct
+    regulation.
+- name: Click here to read the full media release...​
+  type: pdf
+  url: https://www.fscamymoney.co.za/Press%20Releases/OBS%20Banking%20Fraud%20Press%20Release.pdf
+  category: MARKET_CONDUCT
+  source: FSCA
+  description: Official Financial Sector Conduct Authority website for market conduct
+    regulation.
+- name: https://www.ifwg.co.za/wp-content/uploads/IFWG_Position_Paper_on_Crypto_Assets.pdf
+  type: pdf
+  url: https://www.ifwg.co.za/wp-content/uploads/IFWG_Position_Paper_on_Crypto_Assets.pdf
+  category: MARKET_CONDUCT
+  source: FSCA
+  description: Official Financial Sector Conduct Authority website for market conduct
+    regulation.
+- name: https://www.ifwg.co.za/wp-content/uploads/IFWG_CAR_WG-Position_Paper_on_Crypto_Assets.pdf
+  type: pdf
+  url: https://www.ifwg.co.za/wp-content/uploads/IFWG_CAR_WG-Position_Paper_on_Crypto_Assets.pdf
+  category: MARKET_CONDUCT
+  source: FSCA
+  description: Official Financial Sector Conduct Authority website for market conduct
+    regulation.
+- name: Click here to see the full statement...
+  type: pdf
+  url: https://www.ifwg.co.za/wp-content/uploads/Press_Release_Innovation_Hub_Launch.pdf
+  category: MARKET_CONDUCT
+  source: FSCA
+  description: Official Financial Sector Conduct Authority website for market conduct
+    regulation.
+- name: Integrated annual report
+  type: pdf
+  url: https://www.strate.co.za/wp-content/uploads/2026/05/Strate-IR-Report-2025.pdf
+  category: MARKET_INFRASTRUCTURE
+  source: STRATE
+  description: Regulatory framework information for South African financial market
+    infrastructure.
+- name: Sustainability report
+  type: pdf
+  url: https://www.strate.co.za/wp-content/uploads/2026/05/Strate-sustainability-report-2025.pdf
+  category: MARKET_INFRASTRUCTURE
+  source: STRATE
+  description: Regulatory framework information for South African financial market
+    infrastructure.
+- name: King IV application register
+  type: pdf
+  url: https://www.strate.co.za/wp-content/uploads/2021/08/STRATE-2020-KING-IV™-APPLICATION-REGISTER.pdf
+  category: MARKET_INFRASTRUCTURE
+  source: STRATE
+  description: Regulatory framework information for South African financial market
+    infrastructure.
+- name: Supervision Framework
+  type: pdf
+  url: https://www.strate.co.za/wp-content/uploads/2024/03/Supervisory-Framework-Final-2023.pdf
+  category: MARKET_INFRASTRUCTURE
+  source: STRATE
+  description: Regulatory framework information for South African financial market
+    infrastructure.
+- name: Rules
+  type: pdf
+  url: https://www.strate.co.za/wp-content/uploads/2024/10/Strate-Rules-20241018.pdf
+  category: MARKET_INFRASTRUCTURE
+  source: STRATE
+  description: Regulatory framework information for South African financial market
+    infrastructure.
+- name: Integrated annual report
+  type: pdf
+  url: https://www.strate.co.za/wp-content/uploads/2026/05/Strate-IR-Report-2025.pdf
+  category: MARKET_INFRASTRUCTURE
+  source: STRATE
+  description: Regulatory framework information for South African financial market
+    infrastructure.
+- name: Sustainability report
+  type: pdf
+  url: https://www.strate.co.za/wp-content/uploads/2026/05/Strate-sustainability-report-2025.pdf
+  category: MARKET_INFRASTRUCTURE
+  source: STRATE
+  description: Regulatory framework information for South African financial market
+    infrastructure.
+- name: King IV application register
+  type: pdf
+  url: https://www.strate.co.za/wp-content/uploads/2021/08/STRATE-2020-KING-IV™-APPLICATION-REGISTER.pdf
+  category: MARKET_INFRASTRUCTURE
+  source: STRATE
+  description: Regulatory framework information for South African financial market
+    infrastructure.
+- name: Supervision Framework
+  type: pdf
+  url: https://www.strate.co.za/wp-content/uploads/2024/03/Supervisory-Framework-Final-2023.pdf
+  category: MARKET_INFRASTRUCTURE
+  source: STRATE
+  description: Regulatory framework information for South African financial market
+    infrastructure.
+- name: Rules
+  type: pdf
+  url: https://www.strate.co.za/wp-content/uploads/2024/10/Strate-Rules-20241018.pdf
+  category: MARKET_INFRASTRUCTURE
+  source: STRATE
+  description: Regulatory framework information for South African financial market
+    infrastructure.
+- name: Integrated annual report
+  type: pdf
+  url: https://www.strate.co.za/wp-content/uploads/2026/05/Strate-IR-Report-2025.pdf
+  category: MARKET_INFRASTRUCTURE
+  source: STRATE
+  description: Regulatory framework information for South African financial market
+    infrastructure.
+- name: Sustainability report
+  type: pdf
+  url: https://www.strate.co.za/wp-content/uploads/2026/05/Strate-sustainability-report-2025.pdf
+  category: MARKET_INFRASTRUCTURE
+  source: STRATE
+  description: Regulatory framework information for South African financial market
+    infrastructure.
+- name: King IV application register
+  type: pdf
+  url: https://www.strate.co.za/wp-content/uploads/2021/08/STRATE-2020-KING-IV™-APPLICATION-REGISTER.pdf
+  category: MARKET_INFRASTRUCTURE
+  source: STRATE
+  description: Regulatory framework information for South African financial market
+    infrastructure.
+- name: Supervision Framework
+  type: pdf
+  url: https://www.strate.co.za/wp-content/uploads/2024/03/Supervisory-Framework-Final-2023.pdf
+  category: MARKET_INFRASTRUCTURE
+  source: STRATE
+  description: Regulatory framework information for South African financial market
+    infrastructure.
+- name: Rules
+  type: pdf
+  url: https://www.strate.co.za/wp-content/uploads/2024/10/Strate-Rules-20241018.pdf
+  category: MARKET_INFRASTRUCTURE
+  source: STRATE
+  description: Regulatory framework information for South African financial market
+    infrastructure.
+- name: Integrated annual report
+  type: pdf
+  url: https://www.strate.co.za/wp-content/uploads/2026/05/Strate-IR-Report-2025.pdf
+  category: MARKET_INFRASTRUCTURE
+  source: STRATE
+  description: Regulatory framework information for South African financial market
+    infrastructure.
+- name: Sustainability report
+  type: pdf
+  url: https://www.strate.co.za/wp-content/uploads/2026/05/Strate-sustainability-report-2025.pdf
+  category: MARKET_INFRASTRUCTURE
+  source: STRATE
+  description: Regulatory framework information for South African financial market
+    infrastructure.
+- name: King IV application register
+  type: pdf
+  url: https://www.strate.co.za/wp-content/uploads/2021/08/STRATE-2020-KING-IV™-APPLICATION-REGISTER.pdf
+  category: MARKET_INFRASTRUCTURE
+  source: STRATE
+  description: Regulatory framework information for South African financial market
+    infrastructure.
+- name: Supervision Framework
+  type: pdf
+  url: https://www.strate.co.za/wp-content/uploads/2024/03/Supervisory-Framework-Final-2023.pdf
+  category: MARKET_INFRASTRUCTURE
+  source: STRATE
+  description: Regulatory framework information for South African financial market
+    infrastructure.
+- name: Rules
+  type: pdf
+  url: https://www.strate.co.za/wp-content/uploads/2024/10/Strate-Rules-20241018.pdf
+  category: MARKET_INFRASTRUCTURE
+  source: STRATE
+  description: Regulatory framework information for South African financial market
+    infrastructure.
+- name: Integrated annual report
+  type: pdf
+  url: https://www.strate.co.za/wp-content/uploads/2026/05/Strate-IR-Report-2025.pdf
+  category: MARKET_INFRASTRUCTURE
+  source: STRATE
+  description: Regulatory framework information for South African financial market
+    infrastructure.
+- name: Sustainability report
+  type: pdf
+  url: https://www.strate.co.za/wp-content/uploads/2026/05/Strate-sustainability-report-2025.pdf
+  category: MARKET_INFRASTRUCTURE
+  source: STRATE
+  description: Regulatory framework information for South African financial market
+    infrastructure.
+- name: King IV application register
+  type: pdf
+  url: https://www.strate.co.za/wp-content/uploads/2021/08/STRATE-2020-KING-IV™-APPLICATION-REGISTER.pdf
+  category: MARKET_INFRASTRUCTURE
+  source: STRATE
+  description: Regulatory framework information for South African financial market
+    infrastructure.
+- name: Supervision Framework
+  type: pdf
+  url: https://www.strate.co.za/wp-content/uploads/2024/03/Supervisory-Framework-Final-2023.pdf
+  category: MARKET_INFRASTRUCTURE
+  source: STRATE
+  description: Regulatory framework information for South African financial market
+    infrastructure.
+- name: Rules
+  type: pdf
+  url: https://www.strate.co.za/wp-content/uploads/2024/10/Strate-Rules-20241018.pdf
+  category: MARKET_INFRASTRUCTURE
+  source: STRATE
+  description: Regulatory framework information for South African financial market
+    infrastructure.
+- name: To view Strate Rules, click here.
+  type: pdf
+  url: https://www.strate.co.za/wp-content/uploads/2021/08/Strate-Rules-August-2021.pdf
+  category: MARKET_INFRASTRUCTURE
+  source: STRATE
+  description: Regulatory framework information for South African financial market
+    infrastructure.
+- name: Access the Directives Index here
+  type: pdf
+  url: https://www.strate.co.za/wp-content/uploads/2020/09/Directives-Index-2020.pdf
+  category: MARKET_INFRASTRUCTURE
+  source: STRATE
+  description: Regulatory framework information for South African financial market
+    infrastructure.
+- name: Click
+  type: pdf
+  url: https://www.strate.co.za/wp-content/uploads/2020/08/Regulatory-Supervisory-Committee-Report-2020.pdf
+  category: MARKET_INFRASTRUCTURE
+  source: STRATE
+  description: Regulatory framework information for South African financial market
+    infrastructure.
+- name: External Privacy Policy
+  type: pdf
+  url: https://www.strate.co.za/wp-content/uploads/2025/06/Strate-External-Privacy-Policy-v3.2.pdf
+  category: MARKET_INFRASTRUCTURE
+  source: STRATE
+  description: Regulatory framework information for South African financial market
+    infrastructure.
+- name: PAIA
+  type: pdf
+  url: https://www.strate.co.za/wp-content/uploads/2025/09/Strate-Promotion-of-Access-to-Information-Manual-April-202249-002.pdf
+  category: MARKET_INFRASTRUCTURE
+  source: STRATE
+  description: Regulatory framework information for South African financial market
+    infrastructure.
+- name: B-BBEE credentials
+  type: pdf
+  url: https://www.strate.co.za/wp-content/uploads/2026/04/Certificate-Strate-Pty-Ltd-BDO13833-080426_.pdf
+  category: MARKET_INFRASTRUCTURE
+  source: STRATE
+  description: Regulatory framework information for South African financial market
+    infrastructure.
+- name: External Privacy Policy
+  type: pdf
+  url: https://www.strate.co.za/wp-content/uploads/2025/06/Strate-External-Privacy-Policy-v3.2.pdf
+  category: MARKET_INFRASTRUCTURE
+  source: STRATE
+  description: Regulatory framework information for South African financial market
+    infrastructure.
+- name: PAIA
+  type: pdf
+  url: https://www.strate.co.za/wp-content/uploads/2025/09/Strate-Promotion-of-Access-to-Information-Manual-April-202249-002.pdf
+  category: MARKET_INFRASTRUCTURE
+  source: STRATE
+  description: Regulatory framework information for South African financial market
+    infrastructure.
+- name: B-BBEE credentials
+  type: pdf
+  url: https://www.strate.co.za/wp-content/uploads/2026/04/Certificate-Strate-Pty-Ltd-BDO13833-080426_.pdf
+  category: MARKET_INFRASTRUCTURE
+  source: STRATE
+  description: Regulatory framework information for South African financial market
+    infrastructure.
+- name: Website Privacy Notice.
+  type: pdf
+  url: https://www.strate.co.za/wp-content/uploads/2021/05/Website-Privacy-Notice_04.05.2020.pdf
+  category: MARKET_INFRASTRUCTURE
+  source: STRATE
+  description: Regulatory framework information for South African financial market
+    infrastructure.
+- name: Privacy Policy
+  type: pdf
+  url: https://www.compliancesa.com/sites/default/files/content-files/Privacy-Notice-2026.pdf
+  category: REGULATORY_UPDATES
+  source: COMPLIANCE_SA
+  description: Regulatory update page for South African compliance developments.
+- name: Terms & Conditions
+  type: pdf
+  url: https://www.compliancesa.com/sites/default/files/content-files/Terms%20%20Conditions%20-%20Compliance%20Institute%20SA.pdf
+  category: REGULATORY_UPDATES
+  source: COMPLIANCE_SA
+  description: Regulatory update page for South African compliance developments.
+- name: PAIA Manual
+  type: pdf
+  url: https://www.compliancesa.com/sites/default/files/content-files/PAIA%20Manual%20Approved%20March%202026.pdf
+  category: REGULATORY_UPDATES
+  source: COMPLIANCE_SA
+  description: Regulatory update page for South African compliance developments.
