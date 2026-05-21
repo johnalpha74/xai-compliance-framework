@@ -33,3 +33,14 @@ def generate_with_bedrock(prompt: str, max_tokens: int = 400):
             "topP": 0.9
         }
     }
+
+    response = client.invoke_model(
+        modelId=MODEL_ID,
+        body=json.dumps(body),
+        contentType="application/json",
+        accept="application/json"
+    )
+
+    result = json.loads(response["body"].read())
+
+    return result["output"]["message"]["content"][0]["text"]
