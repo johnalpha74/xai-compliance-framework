@@ -1,0 +1,13 @@
+{
+    "query": "Must a bank verify a customer's identity before opening an account?",
+    "retrieved_sources": [
+        "data\\processed\\text\\2019.02-PCC-PCC31A-On-the-receipt-and-acceptance-of-funds-by-AIs.txt"
+    ],
+    "reasoning_steps": [
+        "Retrieved relevant regulatory documents",
+        "Matched query against regulatory requirements",
+        "Generated compliance interpretation",
+        "Produced compliance decision"
+    ],
+    "compliance_decision": null
+}

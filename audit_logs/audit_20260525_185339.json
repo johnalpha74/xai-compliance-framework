@@ -1,0 +1,13 @@
+{
+    "query": "Should a cash deposit of 400000 be reported",
+    "retrieved_sources": [
+        "data\\processed\\text\\2022.10-Guidance-Guidance-Note-5C-CTRs.txt"
+    ],
+    "reasoning_steps": [
+        "Retrieved relevant regulatory documents",
+        "Matched query against regulatory requirements",
+        "Generated compliance interpretation",
+        "Produced compliance decision"
+    ],
+    "compliance_decision": null
+}
