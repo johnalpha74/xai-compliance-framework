@@ -45,7 +45,7 @@ def split_documents(documents):
 
 def build_faiss_index(chunks):
     embeddings = HuggingFaceEmbeddings(
-        model_name="sentence-transformers/all-MiniLM-L6-v2"
+        model_name="models/all-MiniLM-L6-v2"
     )
 
     vectorstore = FAISS.from_documents(chunks, embeddings)

@@ -1,0 +1,44 @@
+{
+    "timestamp": "2026-06-14T16:12:25.854168",
+    "query": "What technical controls support information security?",
+    "retrieved_sources": [
+        {
+            "source_file": "king_iv_application_register.txt",
+            "chunk_id": 7684,
+            "preview": ". The Board has delegated oversight and monitoring of technology and information projects, risk management, and cyber and information security to the Audit and Risk Committee. The Audit and Risk Committee is supported by and receives regular reports on information and technology governance from the "
+        }
+    ],
+    "reasoning_trace": [
+        {
+            "step": 1,
+            "stage": "Query Received",
+            "description": "The system received the compliance query: 'What technical controls support information security?'."
+        },
+        {
+            "step": 2,
+            "stage": "Regulatory Retrieval",
+            "description": "The retrieval layer searched the FAISS vector store and identified relevant regulatory content from king_iv_application_register, chunk 7684."
+        },
+        {
+            "step": 3,
+            "stage": "Source Grounding",
+            "description": "The retrieved regulatory text was used as the grounding context for the compliance response."
+        },
+        {
+            "step": 4,
+            "stage": "Compliance Interpretation",
+            "description": "The system interpreted the retrieved regulatory content in relation to the user query."
+        },
+        {
+            "step": 5,
+            "stage": "Compliance Decision Generation",
+            "description": "A compliance response was generated based only on the retrieved regulatory context."
+        },
+        {
+            "step": 6,
+            "stage": "Human Review Recommendation",
+            "description": "Human review is recommended because regulatory compliance decisions require professional validation."
+        }
+    ],
+    "compliance_decision": "1. Technical controls that support information security include access to programs and data, change management, IT operations, and cybersecurity practices as part of the external audit process for evaluating Information Technology General Controls (ITGC).\n2. The relevant regulatory basis is found in Section VII - Audit Committee Responsibilities within King IV: Corporate Governance Report 34-107G/9, which outlines IT and information security oversight responsibilities of the Board's audit committee as per corporate governance best practices.\n3. The explanation is that these technical controls are mandated by regulatory standards to ensure proper access control, secure changes management processes, effective IT operations for business continuity, and robust cybersecurity measures against potential threats\u2014all essential components of an organization's information security framework as per the King IV guidel01.\n4. Human review required: Yes, because while AI can provide initial assessments based on regulatory contexts, human judgment is necessary to interpret nuances and specific organizational needs within compliance frameworks like those outlined in corporate governance reports such as \"King IV.\""
+}

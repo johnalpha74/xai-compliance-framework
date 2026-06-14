@@ -1,0 +1,44 @@
+{
+    "timestamp": "2026-06-12T09:01:48.325000",
+    "query": "How often should AML controls be reviewed?",
+    "retrieved_sources": [
+        {
+            "source_file": "Revised-Guidance-Note-7A-\u2013-Implementation-of-various-aspects-of-the-FIC-Act.txt",
+            "chunk_id": 11215,
+            "preview": ".) as well as an indication of the accountable institution\u2019s risk tolerance level or appetite. Part 2 \u2013 Mitigation and management of risks identified through applying appropriate controls, including customer due diligence (CDD), reporting and record keeping, etc. Part 3 \u2013 Monitoring whether the cont"
+        }
+    ],
+    "reasoning_trace": [
+        {
+            "step": 1,
+            "stage": "Query Received",
+            "description": "The system received the compliance query: 'How often should AML controls be reviewed?'."
+        },
+        {
+            "step": 2,
+            "stage": "Regulatory Retrieval",
+            "description": "The retrieval layer searched the FAISS vector store and identified relevant regulatory content from Revised-Guidance-Note-7A-\u2013-Implementation-of-various-aspects-of-the-FIC-Act, chunk 11215."
+        },
+        {
+            "step": 3,
+            "stage": "Source Grounding",
+            "description": "The retrieved regulatory text was used as the grounding context for the compliance response."
+        },
+        {
+            "step": 4,
+            "stage": "Compliance Interpretation",
+            "description": "The system interpreted the retrieved regulatory content in relation to the user query."
+        },
+        {
+            "step": 5,
+            "stage": "Compliance Decision Generation",
+            "description": "A compliance response was generated based only on the retrieved regulatory context."
+        },
+        {
+            "step": 6,
+            "stage": "Human Review Recommendation",
+            "description": "Human review is recommended because regulatory compliance decisions require professional validation."
+        }
+    ],
+    "compliance_decision": "1. AML controls should be reviewed regularly to ensure they are adequate and effective in mitigating risks, as part of the Risk Mitigation Control Plan (RMCP).\n2. Source 1: Revised-Guidance-Note-7A\u2013ImplementationofvariousaspectsoftheFICAct.txtChunk 11215\n3. According to regulatory guidance, accountable institutions must conduct an entity wide AML/CFT/CFP risk assessment before determining the controls required for mitigation (including customer due diligence). The board approving RMCPs is responsible for ensuring that these plans adequately address ML, TF and PF risks. While specific frequency isn't mentioned in this context, regular reviews are implied to maintain control effectiveness as part of the risk management process outlined by FIC Act guidelines.\n4. Yes"
+}

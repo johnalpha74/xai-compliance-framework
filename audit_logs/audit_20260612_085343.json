@@ -1,0 +1,44 @@
+{
+    "timestamp": "2026-06-12T08:53:43.031460",
+    "query": "What is the Liquidity Coverage Ratio?",
+    "retrieved_sources": [
+        {
+            "source_file": "financial_sector_regulation_and_reform.txt",
+            "chunk_id": 6350,
+            "preview": "ANNEXURE D : FINANCIAL SECTOR REGULATION AND REFORM 171 Prudential reforms South Africa\u2019s strength as a financial hub for Africa relies on the safety and soundness of its banks and insurance companies. From 1 April 2016, new banking regulations will align the current framework with the Basel Committ"
+        }
+    ],
+    "reasoning_trace": [
+        {
+            "step": 1,
+            "stage": "Query Received",
+            "description": "The system received the compliance query: 'What is the Liquidity Coverage Ratio?'."
+        },
+        {
+            "step": 2,
+            "stage": "Regulatory Retrieval",
+            "description": "The retrieval layer searched the FAISS vector store and identified relevant regulatory content from financial_sector_regulation_and_reform, chunk 6350."
+        },
+        {
+            "step": 3,
+            "stage": "Source Grounding",
+            "description": "The retrieved regulatory text was used as the grounding context for the compliance response."
+        },
+        {
+            "step": 4,
+            "stage": "Compliance Interpretation",
+            "description": "The system interpreted the retrieved regulatory content in relation to the user query."
+        },
+        {
+            "step": 5,
+            "stage": "Compliance Decision Generation",
+            "description": "A compliance response was generated based only on the retrieved regulatory context."
+        },
+        {
+            "step": 6,
+            "stage": "Human Review Recommendation",
+            "description": "Human review is recommended because regulatory compliance decisions require professional validation."
+        }
+    ],
+    "compliance_decision": "1. Liquidity Coverage Ratio is a standard that requires banks to hold an adequate level of high-quality liquid assets that can be quickly converted into cash in case of short-term stress scenarios.\n2. The relevant regulatory basis for the definition and requirements surrounding this ratio comes from Basel III, as mentioned within ANNEXURE D: FINANCIAL SECTOR REGULATION AND REFORM 171 Prudential reforms South Africa\u2019s strength as a financial hub for Africa relies on the safety and soundness of its banks. From 1 April 2016, new banking regulations will align with Basel Committee's latest guidance which includes calibration to net stable funding ratio forming part of the Basel III framework (Source: Chunk 6350).\n3. The Liquidity Coverage Ratio is a key component within Basel III, ensuring that banks maintain enough liquid assets relative to their short-term liabilities under stress conditions without causing undue harm to the economy by using wholesale deposits with a run -off rate of 35 per cent for those less than six months in duration.\n4. Yes, human review is required as this answer involves interpretation and application of regulatory standards within Basel III framework which may have nuances not captured fully herein (Source: Chunk 6350)."
+}

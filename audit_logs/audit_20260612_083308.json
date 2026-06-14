@@ -1,0 +1,44 @@
+{
+    "timestamp": "2026-06-12T08:33:08.025913",
+    "query": "When is customer due diligence required?",
+    "retrieved_sources": [
+        {
+            "source_file": "Revised-Guidance-Note-7A-\u2013-Implementation-of-various-aspects-of-the-FIC-Act.txt",
+            "chunk_id": 11078,
+            "preview": "REVISED GUIDANCE NOTE 7 A ON THE IMPLEMENTATION OF VARIOUS ASPECTS OF THE FINANCIAL INTELL IGENCE CENTRE ACT, 2001 (ACT 38 OF 2001) Page 29 of 76 CHAPTER 2 CUSTOMER DUE DILIGENCE MEASURES Introduction 71. Customer due diligence (CDD) refers to the knowledge that an accountable institution has about "
+        }
+    ],
+    "reasoning_trace": [
+        {
+            "step": 1,
+            "stage": "Query Received",
+            "description": "The system received the compliance query: 'When is customer due diligence required?'."
+        },
+        {
+            "step": 2,
+            "stage": "Regulatory Retrieval",
+            "description": "The retrieval layer searched the FAISS vector store and identified relevant regulatory content from Revised-Guidance-Note-7A-\u2013-Implementation-of-various-aspects-of-the-FIC-Act, chunk 11078."
+        },
+        {
+            "step": 3,
+            "stage": "Source Grounding",
+            "description": "The retrieved regulatory text was used as the grounding context for the compliance response."
+        },
+        {
+            "step": 4,
+            "stage": "Compliance Interpretation",
+            "description": "The system interpreted the retrieved regulatory content in relation to the user query."
+        },
+        {
+            "step": 5,
+            "stage": "Compliance Decision Generation",
+            "description": "A compliance response was generated based only on the retrieved regulatory context."
+        },
+        {
+            "step": 6,
+            "stage": "Human Review Recommendation",
+            "description": "Human review is recommended because regulatory compliance decisions require professional validation."
+        }
+    ],
+    "compliance_decision": "**Compliance Answer: Customer due diligence is required when establishing and verifying the identity of a client to comply with MLTFC Regulations as per Section 72, Introduction in Source 1 (Revised-Guidance-Note-7A).**  \n\n**Regulatory Basis: Revised Guidance Note 7 A on Implementation of Various Aspects of the Financial Intelligence Centre Act, 2001. Chunk 11078 (Source 1)**   \n\n**Explanation: The context specifies that customer due diligence measures are a key component in combating money laundering and terrorism financing effectively by ensuring accountable institutions have knowledge of their clients' identities. Previously, these entities were mandated to establish client identity verification as per MLTFC Regulations (Section 72).**  \n\n**Human Review Required: No**"
+}

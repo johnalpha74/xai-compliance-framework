@@ -1,0 +1,44 @@
+{
+    "timestamp": "2026-06-12T09:14:34.549351",
+    "query": "What technical controls support information security?",
+    "retrieved_sources": [
+        {
+            "source_file": "king_iv_application_register.txt",
+            "chunk_id": 7684,
+            "preview": ". The Board has delegated oversight and monitoring of technology and information projects, risk management, and cyber and information security to the Audit and Risk Committee. The Audit and Risk Committee is supported by and receives regular reports on information and technology governance from the "
+        }
+    ],
+    "reasoning_trace": [
+        {
+            "step": 1,
+            "stage": "Query Received",
+            "description": "The system received the compliance query: 'What technical controls support information security?'."
+        },
+        {
+            "step": 2,
+            "stage": "Regulatory Retrieval",
+            "description": "The retrieval layer searched the FAISS vector store and identified relevant regulatory content from king_iv_application_register, chunk 7684."
+        },
+        {
+            "step": 3,
+            "stage": "Source Grounding",
+            "description": "The retrieved regulatory text was used as the grounding context for the compliance response."
+        },
+        {
+            "step": 4,
+            "stage": "Compliance Interpretation",
+            "description": "The system interpreted the retrieved regulatory content in relation to the user query."
+        },
+        {
+            "step": 5,
+            "stage": "Compliance Decision Generation",
+            "description": "A compliance response was generated based only on the retrieved regulatory context."
+        },
+        {
+            "step": 6,
+            "stage": "Human Review Recommendation",
+            "description": "Human review is recommended because regulatory compliance decisions require professional validation."
+        }
+    ],
+    "compliance_decision": "Compliance Answer: The Audit and Risk Committee is responsible for overseeing technology projects, risk management, cybersecurity, and information security practices as part of their delegated duties from the Board.  \nRelevant Regulatory Basis: King IV Code on Corporate Governance (Chapter 7 - Fiduciary Duties)   \nExplanation: The Audit and Risk Committee's oversight includes evaluating IT general controls, which encompass access to programs and data, change management, IT operations, and security practices as part of the external audit process. This supports information security by ensuring that proper governance measures are in place for technology-related risks (King IV Code on Corporate Governance: Chapter 7 - Fiduciary Duties).  \nHuman Review Required: Yes"
+}

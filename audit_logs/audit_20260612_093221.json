@@ -1,0 +1,44 @@
+{
+    "timestamp": "2026-06-12T09:32:21.222725",
+    "query": "Should expired identification documents trigger review?",
+    "retrieved_sources": [
+        {
+            "source_file": "2010.05-PCC-PCCO3-Refugees-and-asylum-seekers.txt",
+            "chunk_id": 30,
+            "preview": ". The United Nations Certified Travel Document passport is also regarded as an acceptable form of identification. Since refugees are given the status of residents and are in possession of a refugee identity document which can be dealt with in the same way as a South African identity document, the id"
+        }
+    ],
+    "reasoning_trace": [
+        {
+            "step": 1,
+            "stage": "Query Received",
+            "description": "The system received the compliance query: 'Should expired identification documents trigger review?'."
+        },
+        {
+            "step": 2,
+            "stage": "Regulatory Retrieval",
+            "description": "The retrieval layer searched the FAISS vector store and identified relevant regulatory content from 2010.05-PCC-PCCO3-Refugees-and-asylum-seekers, chunk 30."
+        },
+        {
+            "step": 3,
+            "stage": "Source Grounding",
+            "description": "The retrieved regulatory text was used as the grounding context for the compliance response."
+        },
+        {
+            "step": 4,
+            "stage": "Compliance Interpretation",
+            "description": "The system interpreted the retrieved regulatory content in relation to the user query."
+        },
+        {
+            "step": 5,
+            "stage": "Compliance Decision Generation",
+            "description": "A compliance response was generated based only on the retrieved regulatory context."
+        },
+        {
+            "step": 6,
+            "stage": "Human Review Recommendation",
+            "description": "Human review is recommended because regulatory compliance decisions require professional validation."
+        }
+    ],
+    "compliance_decision": "**Compliance Answer:** Expired identification documents should trigger a review to ensure compliance with the regulations regarding identity verification and account suspension or freezing upon expiry of validity periods for refugee status holders, as per Regulation 3 (information concerning South African citizens and residents) and Regulation 4.\n\n**Relevant Regulatory Basis:** The relevant regulatory basis is found in the provided context from Source 1 under Chunk 30 of [2010.05-PCC-PCCO3-Refugees-and-asylum-seekers.txt], which outlines procedures for verifying refugee identity documents and mandates internal controls to monitor accounts with expiring identification, including suspension or freezing upon the document's validity period ending (Regulation 3 & Regulation 4).\n\n**Explanation:** The regulatory context specifies that while a UN Certified Travel Document is accepted for identity verification as per South African regulations and can be renewed, it has an expiry of two years. Accountable institutions are required to have controls in place to monitor these accounts periodically (Source 1 Chunk 30). Upon the document's expiration without a new issuance within this timeframe, transactions should not occur on such accounts as per Regulation 4(a), which implies that an account with an"
+}

@@ -1,0 +1,15 @@
+{
+    "query": "What is CDD?",
+    "retrieved_sources": [
+        "PCC-59-Beneficial-ownership.txt"
+    ],
+    "reasoning_steps": [
+        "Retrieved regulatory guidance from PCC-59-Beneficial-ownership.",
+        "Located provisions relevant to 'What is CDD?'.",
+        "Extracted regulatory requirements from the retrieved text.",
+        "Interpreted the requirements using contextual reasoning.",
+        "Generated the compliance recommendation.",
+        "Suggested human validation to ensure regulatory compliance."
+    ],
+    "compliance_decision": "Here is the answer:\n\n**Compliance Answer**\nCustomer Due Diligence (CDD)\n\n**Relevant Regulatory Basis**\n[Source 1: PCC-59-Beneficial-ownership.txt, Chunk 8002]\n\n**Explanation**\nCDD refers to the process of verifying the identity and assessing the risk of a customer, including identifying potential beneficial owners. In this context, CDD is applied when it becomes evident that a legal person transacts in a manner that benefits an external party.\n\n**Human Review Required: Yes**"
+}

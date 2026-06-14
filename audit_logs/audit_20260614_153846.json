@@ -1,0 +1,44 @@
+{
+    "timestamp": "2026-06-14T15:38:46.172480",
+    "query": "What governance structures support AML compliance?",
+    "retrieved_sources": [
+        {
+            "source_file": "2022.08-PCC-PCC-53-RMCP.txt",
+            "chunk_id": 1510,
+            "preview": "other regulatory requirements (especially AML/CFT measures)? \u2022 Is the client supervised for compliance with AML/CFT measures? \u2022 Has the client been penalised or subjected to adverse findings relating to failures to implement AML/CFT measures? \u2022 Has the client been in a business relationship with the"
+        }
+    ],
+    "reasoning_trace": [
+        {
+            "step": 1,
+            "stage": "Query Received",
+            "description": "The system received the compliance query: 'What governance structures support AML compliance?'."
+        },
+        {
+            "step": 2,
+            "stage": "Regulatory Retrieval",
+            "description": "The retrieval layer searched the FAISS vector store and identified relevant regulatory content from 2022.08-PCC-PCC-53-RMCP, chunk 1510."
+        },
+        {
+            "step": 3,
+            "stage": "Source Grounding",
+            "description": "The retrieved regulatory text was used as the grounding context for the compliance response."
+        },
+        {
+            "step": 4,
+            "stage": "Compliance Interpretation",
+            "description": "The system interpreted the retrieved regulatory content in relation to the user query."
+        },
+        {
+            "step": 5,
+            "stage": "Compliance Decision Generation",
+            "description": "A compliance response was generated based only on the retrieved regulatory context."
+        },
+        {
+            "step": 6,
+            "stage": "Human Review Recommendation",
+            "description": "Human review is recommended because regulatory compliance decisions require professional validation."
+        }
+    ],
+    "compliance_decision": "1. Governance structures that support AML compliance include client supervision and monitoring for adherence to anti-money laundering measures, as well as reviewing patterns of transaction behavior over time within business relationships with the institution.\n2. Relevant Regulatory Basis: PCC (Payment Compliance Commission) - 53rd Report on Anti-Money Laundering and Combating Financing Terrorism Measures for FY2022, Chunk 1510 from [Source 1].\n3. Explanation: The governance structures in question are outlined as part of the AML/CFT (Anti-Money Laundering and Combating Financing Terrorism) measures within financial institutions to ensure compliance with regulatory requirements, including monitoring client behavior for any signs of non-compliance or suspicious activities.\n4. Human Review Required: Yes"
+}

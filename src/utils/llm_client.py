@@ -8,6 +8,7 @@ load_dotenv()
 
 LLM_PROVIDER = os.getenv("LLM_PROVIDER", "ollama").lower()
 OLLAMA_MODEL = os.getenv("OLLAMA_MODEL", "phi3:mini")
+OLLAMA_MODEL = "phi3:mini"
 
 
 def generate_with_ollama(prompt: str) -> str:
@@ -21,8 +22,6 @@ def generate_with_ollama(prompt: str) -> str:
             "num_predict": 300
         }
     )
-
-    print("DEBUG OLLAMA RESPONSE:", response)
 
     if hasattr(response, "message"):
         return response.message.content

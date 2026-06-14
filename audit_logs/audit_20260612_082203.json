@@ -1,0 +1,44 @@
+{
+    "timestamp": "2026-06-12T08:22:03.137874",
+    "query": "When should enhanced due diligence be applied?",
+    "retrieved_sources": [
+        {
+            "source_file": "2022.08-PCC-PCC-53-RMCP.txt",
+            "chunk_id": 1395,
+            "preview": ". 4.4. Conducts additional due diligence (ADD) in respect of clients that are legal persons, trusts or partnerships. 4.5. Conducts ongoing due diligence (ODD) and at which intervals. 4.6. Conducts enhanced due diligence (EDD) where a high-risk business relationship or single transaction has been ide"
+        }
+    ],
+    "reasoning_trace": [
+        {
+            "step": 1,
+            "stage": "Query Received",
+            "description": "The system received the compliance query: 'When should enhanced due diligence be applied?'."
+        },
+        {
+            "step": 2,
+            "stage": "Regulatory Retrieval",
+            "description": "The retrieval layer searched the FAISS vector store and identified relevant regulatory content from 2022.08-PCC-PCC-53-RMCP, chunk 1395."
+        },
+        {
+            "step": 3,
+            "stage": "Source Grounding",
+            "description": "The retrieved regulatory text was used as the grounding context for the compliance response."
+        },
+        {
+            "step": 4,
+            "stage": "Compliance Interpretation",
+            "description": "The system interpreted the retrieved regulatory content in relation to the user query."
+        },
+        {
+            "step": 5,
+            "stage": "Compliance Decision Generation",
+            "description": "A compliance response was generated based only on the retrieved regulatory context."
+        },
+        {
+            "step": 6,
+            "stage": "Human Review Recommendation",
+            "description": "Human review is recommended because regulatory compliance decisions require professional validation."
+        }
+    ],
+    "compliance_decision": "**Compliance Answer: Enhanced due diligence (EDD) is applied when a high-risk business relationship or single transaction has been identified.**  \n\n**Relevant Regulatory Basis: Source 1, Chunk 4.6 of the PCC - PCC-53 RMCP document dated August 2022.**  \n\n**Explanation: According to regulatory guidelines provided in Section 4.6 of the referenced text, enhanced due diligence is mandated for situations involving high risk or single transactions that may present a higher potential for money laundering and terrorist financing activities. This process includes additional checks beyond standard client identification procedures (CDD) to mitigate such risks effectively.**  \n\n**Human Review Required: Yes, as the context provided is specific regulatory guidance which should be interpreted by a compliance officer or legal expert in consultation with relevant authorities and internal policies for accurate application of these guidelines within an institution's framework."
+}

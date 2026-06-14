@@ -1,3 +1,8 @@
+import os
+
+os.environ["HF_HUB_OFFLINE"] = "1"
+os.environ["TRANSFORMERS_OFFLINE"] = "1"
+
 from pathlib import Path
 from langchain_community.vectorstores import FAISS
 from langchain_huggingface import HuggingFaceEmbeddings
@@ -8,16 +13,26 @@ from src.utils.audit_logger import log_audit_event
 VECTORSTORE_DIR = Path("data/vectorstore/faiss_index")
 
 
+VECTORSTORE = None
+
+
 def load_vectorstore():
+    global VECTORSTORE
+
+    if VECTORSTORE is not None:
+        return VECTORSTORE
+
     embeddings = HuggingFaceEmbeddings(
-        model_name="sentence-transformers/all-MiniLM-L6-v2"
+        model_name="models/all-MiniLM-L6-v2"
     )
 
-    return FAISS.load_local(
+    VECTORSTORE = FAISS.load_local(
         str(VECTORSTORE_DIR),
         embeddings,
         allow_dangerous_deserialization=True
     )
+
+    return VECTORSTORE
 
 def retrieve_context(query: str, k: int = 5):
     vectorstore = load_vectorstore()
@@ -64,6 +79,11 @@ Answer the question using ONLY the regulatory context provided.
 Do not invent facts.
 If the answer is not supported by the context, say that the context is insufficient.
 
+Use regulatory terminology from the retrieved context.
+Include key compliance concepts and obligations where applicable.
+Use terminology exactly as it appears in the retrieved regulatory text.
+Keep the answer concise and grounded.
+
 Compliance Question:
 {query}
 
@@ -103,21 +123,22 @@ def main():
     audit_file = log_audit_event(explanation)
 
     print("\n" + "=" * 100)
+
     print("\nCOMPLIANCE DECISION")
     print("=" * 50)
     print(explanation["compliance_decision"])
 
     print("\nSOURCE ATTRIBUTION")
     print("=" * 50)
-
     for source in explanation["retrieved_sources"]:
-        print("-", source)
+        print(f"- Source File: {source['source_file']}")
+        print(f"  Chunk ID: {source['chunk_id']}")
+        print(f"  Preview: {source['preview'][:200]}...")
 
-    print("\nREASONING TRACE")
+    print("\nSTRUCTURED REASONING TRACE")
     print("=" * 50)
-
-    for step in explanation["reasoning_steps"]:
-        print("-", step)
+    for step in explanation["reasoning_trace"]:
+        print(f"{step['step']}. {step['stage']}: {step['description']}")
 
     print(f"\nAudit log saved to: {audit_file}")
     print("=" * 100)

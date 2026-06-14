@@ -1,0 +1,44 @@
+{
+    "timestamp": "2026-06-14T15:01:29.018183",
+    "query": "What should be included in a Risk Management and Compliance Programme?",
+    "retrieved_sources": [
+        {
+            "source_file": "FIC-Act-reference-guide.txt",
+            "chunk_id": 6143,
+            "preview": "Reference Guide for all accountable institutions Page 8 of 25 The compliance officer will receive an e-mail from the Centre confirming the approval or rejection of the registration and will confirm the entity\u2019s Org ID number. 7. WHAT IS A RISK-BASED APPROACH Accountable institutions must implement a"
+        }
+    ],
+    "reasoning_trace": [
+        {
+            "step": 1,
+            "stage": "Query Received",
+            "description": "The system received the compliance query: 'What should be included in a Risk Management and Compliance Programme?'."
+        },
+        {
+            "step": 2,
+            "stage": "Regulatory Retrieval",
+            "description": "The retrieval layer searched the FAISS vector store and identified relevant regulatory content from FIC-Act-reference-guide, chunk 6143."
+        },
+        {
+            "step": 3,
+            "stage": "Source Grounding",
+            "description": "The retrieved regulatory text was used as the grounding context for the compliance response."
+        },
+        {
+            "step": 4,
+            "stage": "Compliance Interpretation",
+            "description": "The system interpreted the retrieved regulatory content in relation to the user query."
+        },
+        {
+            "step": 5,
+            "stage": "Compliance Decision Generation",
+            "description": "A compliance response was generated based only on the retrieved regulatory context."
+        },
+        {
+            "step": 6,
+            "stage": "Human Review Recommendation",
+            "description": "Human review is recommended because regulatory compliance decisions require professional validation."
+        }
+    ],
+    "compliance_decision": "\nCompliance Answer: A Risk Management and Compliance Programme should include a risk-based approach to combating ML, TF, and PF with controls proportionate to the level of risks identified on business, client, and product levels. It must also have documented procedures for conducting these assessments as per FIC guidance not e 7 sets out guidance on RBA (Source: [Source 1: FIC-Act-reference-guide.txt, Chunk 6143]).\n\nRelevant Regulatory Basis: Reference Guide and Guidance Not e 7 for a risk management approach as per the Financial Crime Commission Act reference guide on page 8 of section 25 (Source: [Source 1: FIC-Act-reference-guide.txt, Chunk 6143]).\n\nExplanation: The Risk Management and Compliance Programme should incorporate a risk assessment mechanism that is proportionate to the identified ML/TF risks on various levels (business, client) as well as for new products or processes in line with FIC guidance not e 7. This program must be documented, maintained, and implemented by accountable institutions under section 25 of the Financial Crime Commission Act reference guide to ensure compliance against ML/TF/PF activities (Source: [Source 1: FIC-Act-reference-guide.txt,"
+}

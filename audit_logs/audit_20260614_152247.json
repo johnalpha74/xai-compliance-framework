@@ -1,0 +1,44 @@
+{
+    "timestamp": "2026-06-14T15:22:47.115065",
+    "query": "Can retained earnings be included in CET1 capital?",
+    "retrieved_sources": [
+        {
+            "source_file": "4106022-8act9of2017finansectorregulationa.pdf.txt",
+            "chunk_id": 5666,
+            "preview": ". and year Short Title Extent of repeal or amendment (b) the Companies and Intellectual Property Commission, estab- lished by section 185 of the Companies Act, must accept the \ufb01led notice of incorporation of the exchange, central securi- ties depository, [or] indepen- dent clearing house or central "
+        }
+    ],
+    "reasoning_trace": [
+        {
+            "step": 1,
+            "stage": "Query Received",
+            "description": "The system received the compliance query: 'Can retained earnings be included in CET1 capital?'."
+        },
+        {
+            "step": 2,
+            "stage": "Regulatory Retrieval",
+            "description": "The retrieval layer searched the FAISS vector store and identified relevant regulatory content from 4106022-8act9of2017finansectorregulationa.pdf, chunk 5666."
+        },
+        {
+            "step": 3,
+            "stage": "Source Grounding",
+            "description": "The retrieved regulatory text was used as the grounding context for the compliance response."
+        },
+        {
+            "step": 4,
+            "stage": "Compliance Interpretation",
+            "description": "The system interpreted the retrieved regulatory content in relation to the user query."
+        },
+        {
+            "step": 5,
+            "stage": "Compliance Decision Generation",
+            "description": "A compliance response was generated based only on the retrieved regulatory context."
+        },
+        {
+            "step": 6,
+            "stage": "Human Review Recommendation",
+            "description": "Human review is recommended because regulatory compliance decisions require professional validation."
+        }
+    ],
+    "compliance_decision": "**Compliance Answer: No, retained earnings cannot be included in CET1 capital as per the regulatory context provided.**  \n\n**Relevant Regulatory Basis: Section 185 of the Companies Act and section 4106022-8act9of2017finansectorregulationa regarding corporate existence, licensing, and capital requirements for financial entities.**  \n\n**Explanation: The regulatory context does not explicitly mention retained earnings or their inclusion in CET1 capital but discusses the registration of exchanges as companies under certain conditions related to incorporation notifications filed with the Companies and Intellectual Property Commission (CIPC). There is no direct reference regarding how equity components, such as common shares issued by a company for its own account or retained earnings are treated in terms of capital requirements.**  \n\n**Human Review Required: Yes**"
+}

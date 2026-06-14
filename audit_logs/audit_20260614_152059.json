@@ -1,0 +1,44 @@
+{
+    "timestamp": "2026-06-14T15:20:59.271222",
+    "query": "What is the minimum Common Equity Tier 1 ratio requirement?",
+    "retrieved_sources": [
+        {
+            "source_file": "PCC-23A-Interpretation-of-the-scope-of-credit-providers.txt",
+            "chunk_id": 7883,
+            "preview": ". Entity B is required to register as an accountable institution with the Centre, as it is considered to be carrying on the business of a credit provider. Threshold 2.25. Credit providers that do not fall under the first category of item 11 of Schedule 1 to the FIC Act, would fall under the second c"
+        }
+    ],
+    "reasoning_trace": [
+        {
+            "step": 1,
+            "stage": "Query Received",
+            "description": "The system received the compliance query: 'What is the minimum Common Equity Tier 1 ratio requirement?'."
+        },
+        {
+            "step": 2,
+            "stage": "Regulatory Retrieval",
+            "description": "The retrieval layer searched the FAISS vector store and identified relevant regulatory content from PCC-23A-Interpretation-of-the-scope-of-credit-providers, chunk 7883."
+        },
+        {
+            "step": 3,
+            "stage": "Source Grounding",
+            "description": "The retrieved regulatory text was used as the grounding context for the compliance response."
+        },
+        {
+            "step": 4,
+            "stage": "Compliance Interpretation",
+            "description": "The system interpreted the retrieved regulatory content in relation to the user query."
+        },
+        {
+            "step": 5,
+            "stage": "Compliance Decision Generation",
+            "description": "A compliance response was generated based only on the retrieved regulatory context."
+        },
+        {
+            "step": 6,
+            "stage": "Human Review Recommendation",
+            "description": "Human review is recommended because regulatory compliance decisions require professional validation."
+        }
+    ],
+    "compliance_decision": "Compliance Answer: The minimum Common Equity Tier 1 ratio requirement is not explicitly stated in the provided context.\nRelevant Regulatory Basis: PCC-23A-Interpretation-of-the-scope-of-credit-providers.txt, Chunk 7883\nExplanation: The regulatory text does not provide specific information regarding Common Equity Tier 1 ratio requirements for credit providers; it only mentions the obligation to register as an accountable institution and that there is no monetary threshold mentioned in item (b) of Schedule 1. Therefore, we cannot determine a minimum requirement from this context alone.\nHuman Review Required: Yes"
+}

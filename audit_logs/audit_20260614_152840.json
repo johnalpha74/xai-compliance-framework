@@ -1,0 +1,44 @@
+{
+    "timestamp": "2026-06-14T15:28:40.039225",
+    "query": "What restrictions apply when capital buffers are breached?",
+    "retrieved_sources": [
+        {
+            "source_file": "4106022-8act9of2017finansectorregulationa.pdf.txt",
+            "chunk_id": 3397,
+            "preview": ". (1) To mitigate the risks that systemic events may occur, the Reserve Bank may, after consulting the Prudential Authority, direct the Prudential Authority to impose, either through prudential standards or regulator\u2019s directives, requirements applicable to one or more speci\ufb01c systemically important"
+        }
+    ],
+    "reasoning_trace": [
+        {
+            "step": 1,
+            "stage": "Query Received",
+            "description": "The system received the compliance query: 'What restrictions apply when capital buffers are breached?'."
+        },
+        {
+            "step": 2,
+            "stage": "Regulatory Retrieval",
+            "description": "The retrieval layer searched the FAISS vector store and identified relevant regulatory content from 4106022-8act9of2017finansectorregulationa.pdf, chunk 3397."
+        },
+        {
+            "step": 3,
+            "stage": "Source Grounding",
+            "description": "The retrieved regulatory text was used as the grounding context for the compliance response."
+        },
+        {
+            "step": 4,
+            "stage": "Compliance Interpretation",
+            "description": "The system interpreted the retrieved regulatory content in relation to the user query."
+        },
+        {
+            "step": 5,
+            "stage": "Compliance Decision Generation",
+            "description": "A compliance response was generated based only on the retrieved regulatory context."
+        },
+        {
+            "step": 6,
+            "stage": "Human Review Recommendation",
+            "description": "Human review is recommended because regulatory compliance decisions require professional validation."
+        }
+    ],
+    "compliance_decision": "1. When capital buffers are breached, systemically important financial institutions may face specific requirements imposed by the Reserve Bank through prudential standards or regulator\u2019s directives to mitigate risks and ensure solvency measures as per section [4106022-8act9of2017finansectorregulationa.pdf, Chunk 3397].\n2. Relevant Regulatory Basis: Section 5(b) of the Banking Act (No. 4106022), as amended by the Financial Sector Reform Amendment Act No. 8 of 2017, outlined in [Source 1].\n3. Explanation: The Reserve Bank has authority to direct prudential measures for institutions that fail their capital buffer requirements due to systemic risk concerns as per section (b) and the associated regulations prescribed by this Act on Governor's recommendation. These may include additional solvency-related mandates, liquidity ratios adjustments or other relevant conditions deemed necessary after consultation with the Prudential Authority.\n4. Human Review Required: Yes"
+}

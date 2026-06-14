@@ -1,0 +1,44 @@
+{
+    "timestamp": "2026-06-14T15:34:11.447440",
+    "query": "What is the minimum Liquidity Coverage Ratio requirement?",
+    "retrieved_sources": [
+        {
+            "source_file": "financial_sector_regulation_and_reform.txt",
+            "chunk_id": 6350,
+            "preview": "ANNEXURE D : FINANCIAL SECTOR REGULATION AND REFORM 171 Prudential reforms South Africa\u2019s strength as a financial hub for Africa relies on the safety and soundness of its banks and insurance companies. From 1 April 2016, new banking regulations will align the current framework with the Basel Committ"
+        }
+    ],
+    "reasoning_trace": [
+        {
+            "step": 1,
+            "stage": "Query Received",
+            "description": "The system received the compliance query: 'What is the minimum Liquidity Coverage Ratio requirement?'."
+        },
+        {
+            "step": 2,
+            "stage": "Regulatory Retrieval",
+            "description": "The retrieval layer searched the FAISS vector store and identified relevant regulatory content from financial_sector_regulation_and_reform, chunk 6350."
+        },
+        {
+            "step": 3,
+            "stage": "Source Grounding",
+            "description": "The retrieved regulatory text was used as the grounding context for the compliance response."
+        },
+        {
+            "step": 4,
+            "stage": "Compliance Interpretation",
+            "description": "The system interpreted the retrieved regulatory content in relation to the user query."
+        },
+        {
+            "step": 5,
+            "stage": "Compliance Decision Generation",
+            "description": "A compliance response was generated based only on the retrieved regulatory context."
+        },
+        {
+            "step": 6,
+            "stage": "Human Review Recommendation",
+            "description": "Human review is recommended because regulatory compliance decisions require professional validation."
+        }
+    ],
+    "compliance_decision": "1. The minimum Liquidity Coverage Ratio requirement is not explicitly stated in the provided context, making it insufficient to determine an exact figure from this source alone.\n2. Regulatory Basis - Financial Sector Reform and Recovery Bill (Banking) Amendment Act 17 of 2016; Insurance Bill Parliamentary consideration for international standards implementation, including aspects related to liquidity management as part of the broader financial sector reforms.\n3. Explanation - While specific details on minimum Liquidity Coverage Ratio (LCR) are not provided in this context, it is implied that South Africa's banking regulations will align with Basel III standards by 1 January 2018 and the Insurance Bill aims to implement international liquidity management standards for insurers.\n4. Human Review Required: Yes"
+}

@@ -1,0 +1,44 @@
+{
+    "timestamp": "2026-06-14T15:56:36.704041",
+    "query": "Must banks perform enterprise-wide risk assessments?",
+    "retrieved_sources": [
+        {
+            "source_file": "integrated_annual_report.txt",
+            "chunk_id": 7337,
+            "preview": ". It oversees the implementation of policies, frameworks and processes that ensure risks are identified, assessed and managed within approved thresholds, while embedding a proactive and responsible ERM culture across the business. Our approach to enterprise risk management Strate approaches enterpri"
+        }
+    ],
+    "reasoning_trace": [
+        {
+            "step": 1,
+            "stage": "Query Received",
+            "description": "The system received the compliance query: 'Must banks perform enterprise-wide risk assessments?'."
+        },
+        {
+            "step": 2,
+            "stage": "Regulatory Retrieval",
+            "description": "The retrieval layer searched the FAISS vector store and identified relevant regulatory content from integrated_annual_report, chunk 7337."
+        },
+        {
+            "step": 3,
+            "stage": "Source Grounding",
+            "description": "The retrieved regulatory text was used as the grounding context for the compliance response."
+        },
+        {
+            "step": 4,
+            "stage": "Compliance Interpretation",
+            "description": "The system interpreted the retrieved regulatory content in relation to the user query."
+        },
+        {
+            "step": 5,
+            "stage": "Compliance Decision Generation",
+            "description": "A compliance response was generated based only on the retrieved regulatory context."
+        },
+        {
+            "step": 6,
+            "stage": "Human Review Recommendation",
+            "description": "Human review is recommended because regulatory compliance decisions require professional validation."
+        }
+    ],
+    "compliance_decision": "1. Banks are required to perform enterprise-wide risk assessments as part of their obligations under the Financial Markets Act (FMA).\n2. Integrated Annual Report, Chunk 7337 - FMA Section on Risk Management Obligations for Market Participants: \"It oversees the implementation of policies, frameworks and processes that ensure risks are identified, assessed and managed within approved thresholds.\"\n3. The context indicates banks must identify, assess, and manage enterprise-wide risks to comply with FMA regulations aimed at maintaining financial market resilience and integrity. This is part of the systemic risk management approach mandated by law for all entities operating within South Africa's capital markets as per their obligations under Section 21(a) (Risk Management Obligations).\n4. Yes, a human review may be required to ensure that banks have effectively implemented and are compliant with the enterprise-wide risk assessment processes mandated by FMA regulations."
+}

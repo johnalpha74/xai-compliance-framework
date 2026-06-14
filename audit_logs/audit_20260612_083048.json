@@ -1,0 +1,44 @@
+{
+    "timestamp": "2026-06-12T08:30:48.562077",
+    "query": "How frequently should compliance controls be reviewed?",
+    "retrieved_sources": [
+        {
+            "source_file": "2019.03-Guidance-Draft-Guidance-Note-05C-CTRs.txt",
+            "chunk_id": 425,
+            "preview": ". 45. Accountable and reporting institutions should conduct frequent reviews and sample reports to ensure reports adhere to the Centre\u2019s requirements. 46. Accountable and reporting institutions sho uld conduct appropriate pre -validation and ensure that accurate information is timeously reported to "
+        }
+    ],
+    "reasoning_trace": [
+        {
+            "step": 1,
+            "stage": "Query Received",
+            "description": "The system received the compliance query: 'How frequently should compliance controls be reviewed?'."
+        },
+        {
+            "step": 2,
+            "stage": "Regulatory Retrieval",
+            "description": "The retrieval layer searched the FAISS vector store and identified relevant regulatory content from 2019.03-Guidance-Draft-Guidance-Note-05C-CTRs, chunk 425."
+        },
+        {
+            "step": 3,
+            "stage": "Source Grounding",
+            "description": "The retrieved regulatory text was used as the grounding context for the compliance response."
+        },
+        {
+            "step": 4,
+            "stage": "Compliance Interpretation",
+            "description": "The system interpreted the retrieved regulatory content in relation to the user query."
+        },
+        {
+            "step": 5,
+            "stage": "Compliance Decision Generation",
+            "description": "A compliance response was generated based only on the retrieved regulatory context."
+        },
+        {
+            "step": 6,
+            "stage": "Human Review Recommendation",
+            "description": "Human review is recommended because regulatory compliance decisions require professional validation."
+        }
+    ],
+    "compliance_decision": "Compliance Answer: Frequent reviews of compliance controls should be conducted by accountable and reporting institutions, with appropriate pre-validation to ensure timely accurate reporting as per MLTFC Regulations and Centre\u2019s requirements.\nRelevant Regulatory Basis: Source 1 (2019.03-Guidance-Draft-Guidance-Note-05C-CTRs.txt, Chunk 425)\nExplanation: The regulatory context specifies that accountable and reporting institutions are required to conduct frequent reviews of compliance controls through appropriate pre-validation processes in order to ensure timely accurate information is reported according to the MLTFC Regulations and Centre\u2019s requirements. This implies a continuous monitoring approach, although it does not specify an exact frequency within this context alone.\nHuman Review Required: Yes"
+}

@@ -1,0 +1,44 @@
+{
+    "timestamp": "2026-06-14T15:04:42.985415",
+    "query": "Who is responsible for overseeing compliance programmes?",
+    "retrieved_sources": [
+        {
+            "source_file": "king_iv_application_register.txt",
+            "chunk_id": 7687,
+            "preview": ". GOVERNING BODY ROLES AND RESPONSIBILITIES GOVERNANCE OUTCOMES 1. ETHICAL CUL TURE 2. PERFORMANCE AND VALUE CREATION 3. ADEQUATE AND EFFECTIVE CONTROL 4. TRUST , GOOD REPUTATION AND LEGITIMACY 1. STEERS AND SETS STRATEGIC DIRECTION 2. APPROVES POLICY AND PLANNING 3. OVERSEES AND MONITORS 4. ENSURES"
+        }
+    ],
+    "reasoning_trace": [
+        {
+            "step": 1,
+            "stage": "Query Received",
+            "description": "The system received the compliance query: 'Who is responsible for overseeing compliance programmes?'."
+        },
+        {
+            "step": 2,
+            "stage": "Regulatory Retrieval",
+            "description": "The retrieval layer searched the FAISS vector store and identified relevant regulatory content from king_iv_application_register, chunk 7687."
+        },
+        {
+            "step": 3,
+            "stage": "Source Grounding",
+            "description": "The retrieved regulatory text was used as the grounding context for the compliance response."
+        },
+        {
+            "step": 4,
+            "stage": "Compliance Interpretation",
+            "description": "The system interpreted the retrieved regulatory content in relation to the user query."
+        },
+        {
+            "step": 5,
+            "stage": "Compliance Decision Generation",
+            "description": "A compliance response was generated based only on the retrieved regulatory context."
+        },
+        {
+            "step": 6,
+            "stage": "Human Review Recommendation",
+            "description": "Human review is recommended because regulatory compliance decisions require professional validation."
+        }
+    ],
+    "compliance_decision": "Compliance Answer: Committees based on each mandate are responsible for overseeing compliance programmes in a highly regulated environment like Strat's, as per the Audit and Risk Committee, Regulatory and Supervisory Committee, and Remuneration, Nominations and Social & Ethics Committee.\n2. Relevant Regulatory Basis: King IV Code of Corporate Governance (Chapter 7687) - Governing Bodies Role in Compliance Oversight\n3. Explanation: According to the context provided, it is explicitly stated that committees based on each mandate are tasked with overseeing governance and compliance within Strat's operations as part of their responsibilities outlined by King IV Code for setting strategic direction (Chapter 7685), approving policy and planning (Chapter 7684) and ensuring consistency in the implementation thereof.\n4. Human Review Required: Yes"
+}

@@ -1,0 +1,44 @@
+{
+    "timestamp": "2026-06-14T15:31:34.772563",
+    "query": "What is the Liquidity Coverage Ratio?",
+    "retrieved_sources": [
+        {
+            "source_file": "financial_sector_regulation_and_reform.txt",
+            "chunk_id": 6350,
+            "preview": "ANNEXURE D : FINANCIAL SECTOR REGULATION AND REFORM 171 Prudential reforms South Africa\u2019s strength as a financial hub for Africa relies on the safety and soundness of its banks and insurance companies. From 1 April 2016, new banking regulations will align the current framework with the Basel Committ"
+        }
+    ],
+    "reasoning_trace": [
+        {
+            "step": 1,
+            "stage": "Query Received",
+            "description": "The system received the compliance query: 'What is the Liquidity Coverage Ratio?'."
+        },
+        {
+            "step": 2,
+            "stage": "Regulatory Retrieval",
+            "description": "The retrieval layer searched the FAISS vector store and identified relevant regulatory content from financial_sector_regulation_and_reform, chunk 6350."
+        },
+        {
+            "step": 3,
+            "stage": "Source Grounding",
+            "description": "The retrieved regulatory text was used as the grounding context for the compliance response."
+        },
+        {
+            "step": 4,
+            "stage": "Compliance Interpretation",
+            "description": "The system interpreted the retrieved regulatory content in relation to the user query."
+        },
+        {
+            "step": 5,
+            "stage": "Compliance Decision Generation",
+            "description": "A compliance response was generated based only on the retrieved regulatory context."
+        },
+        {
+            "step": 6,
+            "stage": "Human Review Recommendation",
+            "description": "Human review is recommended because regulatory compliance decisions require professional validation."
+        }
+    ],
+    "compliance_decision": "1. Liquidity Coverage Ratio (LCR) is a standardized measure of a bank's short-term liquidity risk, ensuring that it has an adequate stock of high-quality liquid assets to withstand a significant stress scenario lasting up to 30 days.\n2. Relevant Regulatory Basis: The context does not provide specific details about the Liquidity Coverage Ratio (LCR). However, since LCR is part of international standards mentioned in relation to bank regulations and reforms as per Basel III framework discussed at length within South Africa's financial sector reform documents.\n3. Explanation: The context provided does not directly define or explain the Liquidity Coverage Ratio (LCR). It mentions a proposed run-off rate for wholesale deposits and recalibration of net stable funding ratio, which are related to liquidity management but do not specifically address LCR.\n4. Human Review Required: Yes"
+}

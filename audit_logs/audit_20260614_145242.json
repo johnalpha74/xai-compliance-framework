@@ -1,0 +1,44 @@
+{
+    "timestamp": "2026-06-14T14:52:42.035321",
+    "query": "What additional information must be obtained for high-risk clients?",
+    "retrieved_sources": [
+        {
+            "source_file": "2020.03-PCC-PCC-48-On-certain-life-insurance-business-CDD-and-risk.txt",
+            "chunk_id": 859,
+            "preview": "Public Complian ce Communication Number 4 8 on certain life insurance provider issues including customer due diligence and understanding of risk in relation to their client in terms of the Financial Intelligence Centre Act 38 of 2001 Page 5 of 12 2.2. The FIC\u2019s Guidance Note 7 list s several indicat"
+        }
+    ],
+    "reasoning_trace": [
+        {
+            "step": 1,
+            "stage": "Query Received",
+            "description": "The system received the compliance query: 'What additional information must be obtained for high-risk clients?'."
+        },
+        {
+            "step": 2,
+            "stage": "Regulatory Retrieval",
+            "description": "The retrieval layer searched the FAISS vector store and identified relevant regulatory content from 2020.03-PCC-PCC-48-On-certain-life-insurance-business-CDD-and-risk, chunk 859."
+        },
+        {
+            "step": 3,
+            "stage": "Source Grounding",
+            "description": "The retrieved regulatory text was used as the grounding context for the compliance response."
+        },
+        {
+            "step": 4,
+            "stage": "Compliance Interpretation",
+            "description": "The system interpreted the retrieved regulatory content in relation to the user query."
+        },
+        {
+            "step": 5,
+            "stage": "Compliance Decision Generation",
+            "description": "A compliance response was generated based only on the retrieved regulatory context."
+        },
+        {
+            "step": 6,
+            "stage": "Human Review Recommendation",
+            "description": "Human review is recommended because regulatory compliance decisions require professional validation."
+        }
+    ],
+    "compliance_decision": "1. Additional information for high-risk clients includes indicators related to geographic location, distribution channels, foreign prominent public officials (FPPO) or domestic influential persons (DPIP), and adverse media publicity on the client.\n2. Relevant Regulatory Basis: Financial Intelligence Centre Act 38 of 2001 - Guidance Note 7 as referenced in Public Compliance Communication Number 4-8, Chunk 859.\n3. Explanation: Under the FIC's guidance note on customer due diligence for life insurance providers under the Financial Intelligence Centre Act (FICA), institutions are required to assess risk factors that may indicate higher risks associated with certain clients, such as those who might be foreign public officials or influential persons. This includes considering geographic location and distribution channels of high-risk individuals which could suggest potential for money laundering activities.\n4. Human Review Required: Yes"
+}

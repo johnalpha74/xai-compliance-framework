@@ -1,0 +1,44 @@
+{
+    "timestamp": "2026-06-14T14:53:55.604980",
+    "query": "Does FICA require ongoing monitoring of high-risk customers?",
+    "retrieved_sources": [
+        {
+            "source_file": "FSCA-Administrative-sanction-on-Mika-Finansiele-Dienste-Pty-Ltd.txt",
+            "chunk_id": 6378,
+            "preview": ". It breaches one of the core principles of the FIC Act, i.e. a risk-based approach to all the compliance elements of the FIC Act. MFD correctly acknowledged in its representations that \u201cSection 42(1) and 42(2) of the FIC Act are serious offences in themselves..\u201d 4.1.3. Customer due diligence is one"
+        }
+    ],
+    "reasoning_trace": [
+        {
+            "step": 1,
+            "stage": "Query Received",
+            "description": "The system received the compliance query: 'Does FICA require ongoing monitoring of high-risk customers?'."
+        },
+        {
+            "step": 2,
+            "stage": "Regulatory Retrieval",
+            "description": "The retrieval layer searched the FAISS vector store and identified relevant regulatory content from FSCA-Administrative-sanction-on-Mika-Finansiele-Dienste-Pty-Ltd, chunk 6378."
+        },
+        {
+            "step": 3,
+            "stage": "Source Grounding",
+            "description": "The retrieved regulatory text was used as the grounding context for the compliance response."
+        },
+        {
+            "step": 4,
+            "stage": "Compliance Interpretation",
+            "description": "The system interpreted the retrieved regulatory content in relation to the user query."
+        },
+        {
+            "step": 5,
+            "stage": "Compliance Decision Generation",
+            "description": "A compliance response was generated based only on the retrieved regulatory context."
+        },
+        {
+            "step": 6,
+            "stage": "Human Review Recommendation",
+            "description": "Human review is recommended because regulatory compliance decisions require professional validation."
+        }
+    ],
+    "compliance_decision": "1. The regulatory context does not explicitly state that ongoing monitoring of high-risk customers is required by FICA, but it emphasizes the importance of understanding clients and applying appropriate customer due diligence measures based on risk rating to manage money laundering and terrorist financing risks. \n2. Relevant Regulatory Basis: Section 42(1) & (2) of the Financial Intelligence Centre Act (FICA), which highlights a risk-based approach, customer due diligence as one of its most important provisions and mandates understanding clients to identify suspicious activities.\n3. Explanation: While FICA stresses on identifying high-risk customers through proper assessment for applying appropriate measures under the Act's principles (as per Section 42), it does not directly mention \"ongoing monitoring.\" However, given that customer due diligence is a continuous process and institutions are expected to implement amended provisions within an allotted timeframe of 18 months as stated in Source 1 Chunk 6378, one can infer the necessity for ongoing assessment.\n4. Human Review Required: Yes"
+}

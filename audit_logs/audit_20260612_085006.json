@@ -1,0 +1,44 @@
+{
+    "timestamp": "2026-06-12T08:50:06.400759",
+    "query": "When can banks draw down capital buffers?",
+    "retrieved_sources": [
+        {
+            "source_file": "FINANCIAL REGULATORY GOVERNANCE IN SOUTH AFRICA THE.txt",
+            "chunk_id": 6323,
+            "preview": ".m. EDT), available at http://www.reuters.com/article/2014/06/05/us-banks-regulations-insight-idUSKBN0EF09U20140605. 158 For a balanced view on this issue as it presents in the United States, see L. G. Baxter, \u2018Capture Nuances in Financial Regulation\u2019, 47 (3) Wake Forest Law Review (Fall, 2012). Cf."
+        }
+    ],
+    "reasoning_trace": [
+        {
+            "step": 1,
+            "stage": "Query Received",
+            "description": "The system received the compliance query: 'When can banks draw down capital buffers?'."
+        },
+        {
+            "step": 2,
+            "stage": "Regulatory Retrieval",
+            "description": "The retrieval layer searched the FAISS vector store and identified relevant regulatory content from FINANCIAL REGULATORY GOVERNANCE IN SOUTH AFRICA THE, chunk 6323."
+        },
+        {
+            "step": 3,
+            "stage": "Source Grounding",
+            "description": "The retrieved regulatory text was used as the grounding context for the compliance response."
+        },
+        {
+            "step": 4,
+            "stage": "Compliance Interpretation",
+            "description": "The system interpreted the retrieved regulatory content in relation to the user query."
+        },
+        {
+            "step": 5,
+            "stage": "Compliance Decision Generation",
+            "description": "A compliance response was generated based only on the retrieved regulatory context."
+        },
+        {
+            "step": 6,
+            "stage": "Human Review Recommendation",
+            "description": "Human review is recommended because regulatory compliance decisions require professional validation."
+        }
+    ],
+    "compliance_decision": "**Compliance Answer: Banks can draw down capital buffers under specific regulatory conditions that ensure financial stability and risk management, as outlined by the South African Financial Regulatory Governance framework in The text provided does not specify exact circumstances for drawing down capital buffers. Therefore, a detailed answer cannot be given based on this context alone without additional information from relevant regulations or guidelines within that jurisdiction's financial regulatory body (e.g., the South African Reserve Bank).**\n\n**Relevant Regulatory Basis: The provided text does not contain specific details regarding capital buffer drawdown conditions for banks in South Africa, as it is a general discussion on bank regulation and capture nuances without explicit mention of such mechanisms or guidelines.**\n\n**Explanation: Without direct reference to the regulatory framework governing capital buffers within this context, we cannot accurately state when banks are permitted to draw down their capital reserves in South Africa. The discussion on financial regulation and capture nuances does not provide sufficient detail for a definitive answer regarding buffer conditions or requirements as pertains to banking institutions' regulatory compliance obligations under the Financial Regulatory Governance framework within this jurisdiction, according to Source 1: FINANCIAL REGULATORY GOVERNANCE IN SOUTH AFRICA THE.txt (Chunk 632"
+}

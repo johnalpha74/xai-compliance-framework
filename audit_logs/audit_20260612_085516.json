@@ -1,0 +1,44 @@
+{
+    "timestamp": "2026-06-12T08:55:16.521785",
+    "query": "What is the minimum Liquidity Coverage Ratio requirement?",
+    "retrieved_sources": [
+        {
+            "source_file": "financial_sector_regulation_and_reform.txt",
+            "chunk_id": 6350,
+            "preview": "ANNEXURE D : FINANCIAL SECTOR REGULATION AND REFORM 171 Prudential reforms South Africa\u2019s strength as a financial hub for Africa relies on the safety and soundness of its banks and insurance companies. From 1 April 2016, new banking regulations will align the current framework with the Basel Committ"
+        }
+    ],
+    "reasoning_trace": [
+        {
+            "step": 1,
+            "stage": "Query Received",
+            "description": "The system received the compliance query: 'What is the minimum Liquidity Coverage Ratio requirement?'."
+        },
+        {
+            "step": 2,
+            "stage": "Regulatory Retrieval",
+            "description": "The retrieval layer searched the FAISS vector store and identified relevant regulatory content from financial_sector_regulation_and_reform, chunk 6350."
+        },
+        {
+            "step": 3,
+            "stage": "Source Grounding",
+            "description": "The retrieved regulatory text was used as the grounding context for the compliance response."
+        },
+        {
+            "step": 4,
+            "stage": "Compliance Interpretation",
+            "description": "The system interpreted the retrieved regulatory content in relation to the user query."
+        },
+        {
+            "step": 5,
+            "stage": "Compliance Decision Generation",
+            "description": "A compliance response was generated based only on the retrieved regulatory context."
+        },
+        {
+            "step": 6,
+            "stage": "Human Review Recommendation",
+            "description": "Human review is recommended because regulatory compliance decisions require professional validation."
+        }
+    ],
+    "compliance_decision": "1. The minimum Liquidity Coverage Ratio requirement is not explicitly stated in the provided context, hence it cannot be determined from this information alone.\n2. Insufficient regulatory basis to determine a specific ratio as only recalibration of net stable funding ratios and run-off rates for wholesale deposits are mentioned without direct reference to Liquidity Coverage Ratios (LCR).\n3. The context does not provide sufficient information regarding the minimum LCR requirement, which is a separate component from the Net Stable Funding Ratio within Basel III regulations that focuses on short-term liquidity risk and high-quality assets to cover potential outflows over 30 days of stress scenarios.\n4. Yes"
+}
